@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #19244d;
+    width: 575px;
+    height: 385px;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+
+.board-title {
+    color: #EEEEEE;
+    font-family: Verdana, serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.count {
+    background: #080001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    height: 120px;
+    margin-top: 15px;
+}
+
+.number {
+    color: #F94F6D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 126px;
+    font-weight: normal;
+    padding-top: 25px;
+}
+
+.add-point {
+    display: flex;
+    justify-content: space-around;
+}
+
+.points {
+    color: #9AABD8;
+    background: #19244d;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    margin-top: 10px ;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
